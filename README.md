@@ -4,8 +4,6 @@ Daniel He, dhe@eng.ucsd.edu , dhe@ucsd.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used.
-
 - The main idea is write a program to train on drawing instructionals so that the output can be a drawing instructional based on a given input. (In this case the first instruction.)
 - The text training method used a character based RNN running on tf.keras and eager execution as shown in the Shakespeare example.
 - Using a familiar method allowed for various tweakings of the text generation and training. For the training, I experimented with different numbers of epochs with 10, 20, 30, and 40. 30 worked best in my case because it added a certain level of uncertainty (which can further be tweaked with the temperature in the text generator) and also runs in a reasonable amount of time. This choice makes sense because it allows for the user to have a whacky instruction set that needs human interpretation (as shown in the various art drawn with the instructionals), adding the human art element into the mix. 
@@ -23,7 +21,7 @@ For text generation, I wanted the output to have a 1 through 10 instruction form
 ## Results
 
 - results are done with final tweaks as described in the abstract, in addition titles are chosen by the user
-- results1 - input text used was "Draw a line"
+- I1.pdf - input text used was "Draw a line"
 
 ## Notes
 
