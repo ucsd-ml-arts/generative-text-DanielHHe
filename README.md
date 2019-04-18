@@ -1,6 +1,6 @@
 # Project 1 Generative Text
 
-Your Name, yourcontact@ucsd.edu
+Your Name, dhe@eng.ucsd.edu , dhe@ucsd.edu
 
 ## Abstract
 
@@ -10,20 +10,22 @@ Include your abstract here. This should be one paragraph clearly describing your
 
 Briefly decribe the files that are included with your repository:
 - corpus.txt - your training data.
-- training_code.py or training_code.ipynb - your training code
-- generative_code.py or generative_code.ipynb - your generation code
+- Instruction_G.ipynb - this both trains and generates the text output
+- myspider.py - webscraper used
 
 ## Results
 
-- A file with your generated text (.pdf, .doc, .txt). This should document your creative output.
+- results are done with final tweaks as described in the abstract, in addition titles are chosen by the user
+- results1 - input text used was "Draw a line"
 
 ## Notes
 
 Any implementation details or notes on repeating your work. 
 
-- Does this code require other pip packages, software, etc?
-- Does it run on other platform?
+The webscraper was ran on google colab so that the scrapy tool could be installed. After running '!pip install scrapy', the webscraper code can be written in myspider.py. This code is half commented. The first run should scrape  the first sites and then commenting out the code and renaming the output, run again to scrape the next sites. (These site URLs were obtained using the url-extractor site.) After these 2 output files are obtained, combine them and rename it corpus.txt.
 
 ## Reference
 
 Project requirements: [doc](https://docs.google.com/document/d/13ueceIyuUc4ATD7B-SFZK641MycFZ57eZ9n1lQ3Y1CM/edit?usp=sharing)
+Extracting URLs: http://convertcsv.com/url-extractor.htm
+Scrapy Examples: https://scrapy.org/resources/
