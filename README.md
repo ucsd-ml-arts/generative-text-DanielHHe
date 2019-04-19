@@ -25,7 +25,7 @@ For text generation, I wanted the output to have a 1 through 10 instruction form
 
 ## Notes
 
-The webscraper was ran on google colab so that the scrapy tool could be installed. After running '!pip install scrapy', the webscraper code can be written in myspider.py. This code is half commented. The first run should scrape  the first sites and then commenting out the code and renaming the output, run again to scrape the next sites. (These site URLs were obtained using the url-extractor site.) After these 2 output files are obtained, combine them and rename it corpus.txt.
+The webscraper was ran on google colab so that the scrapy tool could be installed. After running '!pip install scrapy', the webscraper code can be written in myspider.py. This code is half commented. The first run should scrape  the first sites and then uncomment the commented code/comment the uncommented code and renaming the output, run again to scrape the next sites. (These site URLs were obtained using the url-extractor site.) After these 2 output files are obtained, combine them and rename it corpus.txt.
 
 ## Reference
 
