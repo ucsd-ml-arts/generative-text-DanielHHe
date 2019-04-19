@@ -20,8 +20,8 @@ For text generation, I wanted the output to have a 1 through 10 instruction form
 
 ## Results
 
-- results are done with final tweaks as described in the abstract, in addition titles are chosen by the user
-- I1.pdf - input text used was "Draw a line", there are several generated instructions in the pdf
+- results are done with final tweaks as described in the abstract, in addition titles are chosen by the user. Scroll down to see more instructions in the results pdf as wella s more drawings.
+- Results.pdf - input text used was "Draw a line", there are several generated instructions in the pdf
 
 ## Notes
 
